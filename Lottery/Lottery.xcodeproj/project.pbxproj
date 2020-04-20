@@ -736,6 +736,9 @@
 		E8A2826F244DB0100094EA5E /* CommonHeader */ = {
 			isa = PBXGroup;
 			children = (
+				E8A28260244AF0BB0094EA5E /* Header.h */,
+				E8FC1A70244334FC0034AF27 /* ClassSingle.h */,
+				E8FC027823BCF38900CB1FCA /* GlobalDefines.h */,
 			);
 			path = CommonHeader;
 			sourceTree = "<group>";
@@ -1068,9 +1071,6 @@
 				E89F77462404EF0400F83C05 /* FunctionFile */,
 				E81ECF8723D2F64400647D0E /* DownloadManager */,
 				E8163E032410EB4A000858BA /* 备忘录 */,
-				E8A28260244AF0BB0094EA5E /* Header.h */,
-				E8FC1A70244334FC0034AF27 /* ClassSingle.h */,
-				E8FC027823BCF38900CB1FCA /* GlobalDefines.h */,
 				E8709E2E24065F7E0009487C /* LotteryKindName.h */,
 				E890CAE724091D760042F13F /* PushViewCollectionDelegate.h */,
 				E8E2070523BE013E0072A144 /* BaseUI */,
