@@ -1,0 +1,32 @@
+{
+    "data":{
+        "daletou":{
+            "icon":"daletou",
+            "name":"超级大乐透"
+        },
+        "shuangseqiu":{
+            "icon":"shuangseqiu",
+            "name":"双色球"
+        },
+        "fucai3d":{
+            "icon":"3d",
+            "name":"福彩3D"
+        },
+        "pailie3":{
+            "icon":"pailie3",
+            "name":"排列3"
+        },
+        "pailie5":{
+            "icon":"pailie5",
+            "name":"排列5"
+        },
+        "qixingcai":{
+            "icon":"qixingcai",
+            "name":"七星彩"
+        },
+        "qilecai":{
+            "icon":"qilecai",
+            "name":"七乐彩"
+        }
+    }
+}

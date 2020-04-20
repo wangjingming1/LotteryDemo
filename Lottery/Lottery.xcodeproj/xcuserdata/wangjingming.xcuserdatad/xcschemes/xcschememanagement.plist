@@ -7,7 +7,25 @@
 		<key>Lottery.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>7</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E8CF485223B3CFDD0081BE1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8CF486D23B3CFDE0081BE1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8CF487823B3CFDE0081BE1F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

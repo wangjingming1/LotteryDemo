@@ -7,8 +7,9 @@
 //
 
 #import "LotteryNavigationController.h"
+#import "UINavigationController+Cloudox.h"
 
-@interface LotteryNavigationController ()
+@interface LotteryNavigationController ()<UINavigationControllerDelegate, UIGestureRecognizerDelegate>
 
 @end
 
@@ -16,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //代理方法由分类实现UINavigationController+Cloudox
+    self.delegate = self;
+    //避免使用自定义leftBarButtonItem后, 侧滑手势失效
+    self.interactivePopGestureRecognizer.delegate = self;
     // Do any additional setup after loading the view.
 }
 

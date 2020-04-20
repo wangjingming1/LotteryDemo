@@ -17,9 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor greenColor];
+//    self.title = @"我的";
+    [self setNavBarLeftButtonTitle:@"我的"];
 }
-
+- (NSString *)navBarLeftButtonImage{
+    return @"";
+}
 /*
 #pragma mark - Navigation
 

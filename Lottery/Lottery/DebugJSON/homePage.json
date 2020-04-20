@@ -1,0 +1,31 @@
+{
+    "data":{
+            "banners":[
+                {"image":"https://img.500.com/upimages/wap/img/20190906171912527.jpg","url":"https://live.m.500.com/topic/league/106?render=local&league=1&topicleague=1&comefrom=touch"},
+                {"image":"https://img.500.com/upimages/wap/img/20190916153808086.jpg","url":"https://live.m.500.com/center/footballmatch/101/schedule?render=local"},
+                {"image":"https://tradeimg.500.com/upimages/wap/img/20200219105515445.jpg","url":"https://live.m.500.com/center/footballmatch/63/schedule?render=local"},
+                ],
+            "convenientServices":[
+                {"title":"算奖工具","image":"calculator","className":"CalculatorBonusViewController"},
+                {"title":"附近","image":"lotteryStation","className":"LotteryStationViewController"},
+                {"title":"走势图","image":"trendChart","className":"TrendChartViewController"},
+                {"title":"模拟购彩","image":"imitationLottery","className":"ImitationLotteryViewController"},
+                ],
+            "winnings":[
+                {"identifier":"daletou","lotteryData":"test"},
+                {"identifier":"shuangseqiu","lotteryData":"test"}
+                ],
+            "news":[
+                {"informationSources":"500资讯","time":"2020-01-10 08:00","title":"NBA周五精选2串1:骑士vs活塞+凯尔特人vs76人","imageUrl":"https://img.500.com/upimages/knowledge/201810/20181017191529_2141.jpg","url":"https://m.500.com/info/article/detail-231721.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 15:08","title":"红魔彩：U23亚青提点，西超杯马竞加油！","imageUrl":"https://img.500.com/upimages/mc_new/jz/20141031100008_6160.jpg","url":"https://m.500.com/info/article/detail-231720.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 14:49","title":"五星冷刀9日竞彩：亚青赛中韩大战分胜负","imageUrl":"https://img.500.com/upimages/mc_new/tslm/20151106171435_8807.jpg","url":"https://m.500.com/info/article/detail-231719.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-10 03:00","title":"五星冷刀9日竞彩：西超杯马竞有望平巴萨","imageUrl":"https://img.500.com/upimages/knowledge/201907/20190729140219_4301.jpg","url":"https://m.500.com/info/article/detail-231718.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 14:39","title":"两连红！周四西超杯巴萨90分钟取胜有难度","imageUrl":"https://img.500.com/upimages/slt/202001/20200109143542_3704.png","url":"https://m.500.com/info/article/detail-231717.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 13:58","title":"羽习说彩:中国国奥凶多吉少 巴塞罗那取胜不易","imageUrl":"https://img.500.com/upimages/slt/201912/20191231172638_3546.png","url":"https://m.500.com/info/article/detail-231716.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 11:09","title":"克洛斯7秒绝妙偷鸡！瓦伦西亚被打蒙","imageUrl":"https://img.500.com/upimages/slt/202001/20200109110652_1423.png","url":"https://m.500.com/info/article/detail-231715.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 10:54","title":"不想再待了！阿什利-扬已经要求曼联将他出售给国米","imageUrl":"https://img.500.com/upimages/slt/202001/20200109105256_6311.jpg","url":"https://m.500.com/info/article/detail-231714.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 10:47","title":"周四006意大利杯：都灵状态正佳 热那亚或分心","imageUrl":"https://img.500.com/upimages/mc_new/tslm/20151106171435_5043.jpg","url":"https://m.500.com/info/article/detail-231713.shtml"},
+                {"informationSources":"500资讯","time":"2020-01-09 10:29","title":"国奥打响2020中国足球第一枪 亚青赛此前3届9战仅1胜","imageUrl":"https://img.500.com/upimages/slt/202001/20200109102845_3331.png","url":"https://m.500.com/info/article/detail-231712.shtml"}
+                ]
+        }
+}

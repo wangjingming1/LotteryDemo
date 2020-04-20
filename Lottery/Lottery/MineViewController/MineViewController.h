@@ -1,7 +1,7 @@
 //
 //  MineViewController.h
 //  Lottery
-//
+//  我的
 //  Created by wangjingming on 2019/12/26.
 //  Copyright © 2019 wangjingming. All rights reserved.
 //
