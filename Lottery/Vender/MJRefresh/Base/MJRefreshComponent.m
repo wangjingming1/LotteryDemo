@@ -119,7 +119,7 @@
         [self scrollViewPanStateDidChange:change];
     }
 }
-
+- (void)triggerByTap{}
 - (void)scrollViewContentOffsetDidChange:(NSDictionary *)change{}
 - (void)scrollViewContentSizeDidChange:(NSDictionary *)change{}
 - (void)scrollViewPanStateDidChange:(NSDictionary *)change{}

@@ -60,6 +60,11 @@
     self.autoTriggerTimes = 1;
 }
 
+- (void)triggerByTap{
+    [super triggerByTap];
+    [super beginRefreshing];
+}
+
 - (void)scrollViewContentSizeDidChange:(NSDictionary *)change
 {
     [super scrollViewContentSizeDidChange:change];

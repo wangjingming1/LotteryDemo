@@ -92,6 +92,8 @@ typedef void (^MJRefreshComponentAction)(void);
 - (void)prepare NS_REQUIRES_SUPER;
 /** 摆放子控件frame */
 - (void)placeSubviews NS_REQUIRES_SUPER;
+/** 点击RefreshComponent */
+- (void)triggerByTap NS_REQUIRES_SUPER;
 /** 当scrollView的contentOffset发生改变的时候调用 */
 - (void)scrollViewContentOffsetDidChange:(nullable NSDictionary *)change NS_REQUIRES_SUPER;
 /** 当scrollView的contentSize发生改变的时候调用 */

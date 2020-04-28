@@ -47,7 +47,7 @@
 - (void)stateLabelClick
 {
     if (self.state == MJRefreshStateIdle) {
-        [self beginRefreshing];
+        [self triggerByTap];
     }
 }
 
