@@ -39,24 +39,25 @@
     [self.salesJackpotView addSubview:self.salesLabel];
     [self.salesJackpotView addSubview:self.jackpotLabel];
     [self.salesJackpotView addSubview:self.salesJackpotLineView];
-    
+    self.salesLabel.adjustsFontSizeToFitWidth = YES;
+    self.jackpotLabel.adjustsFontSizeToFitWidth = YES;
     
     [self.salesLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(0);
+        make.left.mas_equalTo(kPadding20);
         make.top.mas_equalTo(kPadding20);
-        make.width.mas_equalTo(self.salesJackpotView).multipliedBy(1/2.0);
+        make.width.mas_equalTo(self.salesJackpotView).multipliedBy(1/2.0).offset(-(kPadding20 + kPadding10));
         make.bottom.mas_equalTo(-kPadding20);
     }];
     [self.jackpotLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.salesLabel.mas_right);
         make.top.mas_equalTo(self.salesLabel);
-        make.right.mas_equalTo(0);
+        make.width.mas_equalTo(self.salesLabel);
+        make.right.mas_equalTo(-kPadding20);
     }];
     [self.salesJackpotLineView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(self.salesLabel.mas_right).offset(-1);
+        make.centerX.mas_equalTo(self.salesJackpotView.mas_centerX);
         make.centerY.mas_equalTo(self.salesJackpotView);
         make.width.mas_equalTo(2);
-        make.height.mas_equalTo(self.salesJackpotLineView).multipliedBy(3/5.0);
+        make.height.mas_equalTo(self.salesLabel).offset(-kPadding10/2);
     }];
     
     [self.salesJackpotView mas_makeConstraints:^(MASConstraintMaker *make) {

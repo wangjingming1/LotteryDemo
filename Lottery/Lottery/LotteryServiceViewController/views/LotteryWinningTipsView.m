@@ -125,13 +125,14 @@
 - (UIButton *)openingReminderButton{
     if (!_openingReminderButton){
         _openingReminderButton = [[UIButton alloc] init];
-        [_openingReminderButton setContentEdgeInsets:UIEdgeInsetsMake(5, 5, 5, 5)];
+//        [_openingReminderButton setContentEdgeInsets:UIEdgeInsetsMake(5, 5, 5, 5)];
         _openingReminderButton.titleLabel.font = [UIFont boldSystemFontOfSize:kLotteryWinningTipsViewTitleLabelSize];
         [_openingReminderButton setTitle:@"开启提醒" forState:UIControlStateNormal];
         [_openingReminderButton setImage:[UIImage imageNamed:@"remind"] forState:UIControlStateNormal];
         [_openingReminderButton setImage:[UIImage imageNamed:@"remind"] forState:UIControlStateHighlighted];
         [_openingReminderButton addTarget:self action:@selector(openingReminderButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         [_openingReminderButton setTitleColor:kUIColorFromRGB10(78,132,239) forState:UIControlStateNormal];
+        [_openingReminderButton setTitleEdgeInsets:UIEdgeInsetsMake(0, -5, 0, -5)];
     }
     return _openingReminderButton;
 }

@@ -56,7 +56,7 @@ typedef NS_ENUM(NSInteger, SubBallTag){
 }
 
 - (void)initData{
-    _labelFontSize = 20;
+    _labelFontSize = 17;
     _subLabelFontSize = 15;
     _curIndex = 0;
     self.initSelectBall = NO;

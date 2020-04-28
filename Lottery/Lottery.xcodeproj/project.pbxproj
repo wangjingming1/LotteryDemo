@@ -1619,7 +1619,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T3SMZB4XW;
 				ENABLE_BITCODE = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Lottery/Header.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Vender/CommonHeader/Header.h";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Lottery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -1643,7 +1643,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T3SMZB4XW;
 				ENABLE_BITCODE = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/Lottery/Header.h";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Vender/CommonHeader/Header.h";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Lottery/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
